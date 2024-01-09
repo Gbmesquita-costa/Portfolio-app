@@ -45,7 +45,7 @@ const Contact = () => {
                     <input
                         {...register("name")}
                         name="name"
-                        placeholder="Type your name."
+                        placeholder="Type your name"
                         type="text"
                         autoFocus={true}
                         className="rounded-md p-4 mb-4 w-full h-11 transition duration-100 border border-gray-300 outline-none"
@@ -54,7 +54,7 @@ const Contact = () => {
                     <input
                         {...register("email")}
                         name="email"
-                        placeholder="Type your e-mail."
+                        placeholder="Type your e-mail"
                         type="email"
                         className="rounded-md p-4 mb-4 w-full h-11 transition duration-100 border border-gray-300 outline-none"
                     />
@@ -71,7 +71,7 @@ const Contact = () => {
                         <textarea
                             {...register("message")}
                             name="message"
-                            placeholder="Type your message here."
+                            placeholder="Type your message here"
                             className="rounded-md p-4 resize-none h-32 transition duration-100 border border-gray-300 outline-none"
                         />
                         <div className="flex gap-3">

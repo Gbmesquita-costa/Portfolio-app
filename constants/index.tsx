@@ -1,4 +1,5 @@
 import {  
+  FaGithub,
   FaInstagram, 
   FaLinkedin 
 } from "react-icons/fa";
@@ -88,6 +89,10 @@ export const Socials = [
   {
     social: <FaLinkedin size={25}/>,
     link: "https://www.linkedin.com/in/gabriel-mesquita-635600223/"
+  },
+  {
+    social: <FaGithub size={25} />,
+    link: "https://github.com/Gbmesquita-costa"
   },
   {
     social: <FaInstagram size={25} />,

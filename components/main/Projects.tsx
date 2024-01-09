@@ -1,6 +1,11 @@
 import React from "react";
 import ProjectCard from "../sub/ProjectCard";
 
+import Impeto from "@/components/assets/projects/impeto.png";
+
+import JDConstrucoes from "@/components/assets/projects/JDconstrucoes.png";
+import JDDashboard from "@/components/assets/projects/JDDashboard.png";
+
 const Projects = () => {
   return (
     <div
@@ -12,24 +17,21 @@ const Projects = () => {
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
-          src="/NextWebsite.png"
-          title="Modern Next.js Portfolio"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src={JDConstrucoes.src}
+          title="JDConstrucoes Website"
+          description="Built a Next.js website for JDConstrucoes showcasing construction projects, contact details, and the company's process."
         />
+
         <ProjectCard
-          src="/NextWebsite.png"
-          title="Modern Next.js Portfolio"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src={Impeto.src}
+          title="Ímpeto E-commerce"
+          description="Developed a full Next.js e-commerce with product categories, Stripe payments, order tracking, and more."
         />
+
         <ProjectCard
-          src="/CardImage.png"
-          title="Interactive Website Cards"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        />
-        <ProjectCard
-          src="/SpaceWebsite.png"
-          title="Space Themed Website"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src={JDDashboard.src}
+          title="JDConstrucoes Admin Dashboard"
+          description="Created a Next.js admin dashboard for JDConstrucoes with privileges, image management, email automation, feedback tracking, and more."
         />
       </div>
     </div>
