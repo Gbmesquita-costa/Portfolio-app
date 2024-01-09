@@ -42,12 +42,6 @@ export const Skill_data = [
     height: 80,
   },
   {
-    skill_name: "ReactQuery",
-    Image: "/reactquery.png",
-    width: 80,
-    height: 80,
-  },
-  {
     skill_name: "TypeScript",
     Image: "/ts.png",
     width: 80,
@@ -140,12 +134,6 @@ export const Frontend_skill = [
   {
     skill_name: "Redux",
     Image: "/redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "ReactQuery",
-    Image: "/reactquery.png",
     width: 80,
     height: 80,
   },
