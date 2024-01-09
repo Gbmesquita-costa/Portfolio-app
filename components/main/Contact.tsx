@@ -30,10 +30,10 @@ const Contact = () => {
     return (
         <div id="contact" className="z-40">
             <div className="mx-auto text-center px-4">
-                <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                <h1 className="text-3xl md:text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
                     Contact
                 </h1>
-                <p className="mx-auto mt-6 max-w-xl text-xl leading-7 text-white">
+                <p className="mx-auto mt-6 max-w-xl text-lg md:text-xl leading-7 text-white">
                     Send an email and let me know how I can help you!
                 </p>
             </div>
