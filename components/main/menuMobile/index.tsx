@@ -31,13 +31,14 @@ export function MenuMobile({ menuIsVisible, setMenuIsVisible }: MenuMobileProps)
                                 />
                             </div>
 
-                            <div className="flex justify-center my-4 h-[127px]">
+                            <div className="flex justify-center my-4 h-[120px]">
                                 <Image
-                                    width={127}
+                                    width={122}
                                     height={30}
                                     src={Profile}
                                     alt="gabriel_profile"
                                     className="rounded-full"
+                                    quality={100}
                                 />
                             </div>
 

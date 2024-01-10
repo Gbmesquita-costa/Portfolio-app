@@ -9,21 +9,6 @@ import { MenuMobile } from "./menuMobile";
 const Navbar = () => {
   const [menuIsVisible, setMenuIsVisible] = useState<boolean>(false)
 
-  function hidePageScroll(): void {
-    document.body.style.overflow = 'hidden'
-  }
-
-  function showPageScroll(): void {
-    document.body.style.overflow = 'auto'
-  }
-
-  function handleOpenToggle(): void {
-    return !menuIsVisible ?
-      hidePageScroll() :
-      showPageScroll(),
-      setMenuIsVisible(!menuIsVisible)
-  }
-
   return (
     <>
       <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
@@ -39,7 +24,7 @@ const Navbar = () => {
 
           <CiMenuBurger
             size={27}
-            onClick={handleOpenToggle}
+            onClick={() => setMenuIsVisible(true)}
             className="cursor-pointer sm:hidden text-white flex justify-start"
           />
 
