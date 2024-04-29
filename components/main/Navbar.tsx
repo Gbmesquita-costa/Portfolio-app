@@ -18,7 +18,7 @@ const Navbar = () => {
             className="h-auto w-auto hidden flex-row items-center sm:flex"
           >
             <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-              Gabriel Mesquita
+              Space Portfolio
             </span>
           </a>
 
